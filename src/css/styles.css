@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+.container #interative-word {
+  position: absolute;
+  cursor: pointer;
+  transition: .4s;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 225, 255);
+  box-shadow: 0 0 10px rgb(0, 225, 255);
+}
+.container #interative-word span {
+  background: linear-gradient(to right, rgb(0, 225, 255), rgb(10, 26, 77));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
