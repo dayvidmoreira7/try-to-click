@@ -10,6 +10,14 @@ const trueOrFalse = (percentage) => {
   return getRandomValue(100) <= percentage;
 };
 
+window.oncontextmenu = () => {
+  getElement('#container').classList.add('show-error');
+  setTimeout(() => {
+    getElement('#container').classList.remove('show-error');
+  }, 1000);
+  return false;
+}
+
 getElement('#interative-word').style.left = `${getRandomValue(80)}%`;
 getElement('#interative-word').style.top = `${getRandomValue(80)}%`;
 
