@@ -31,5 +31,5 @@ getElement('#interative-word').addEventListener('mouseover', ({ target: { style 
 });
 
 getElement('#interative-word').addEventListener('click', ({ target }) => {
-  alert('Parabéns! Conseguiu clicar!');
+  alert('Parabéns! Conseguiu clicar! Mas não se anima. Vou voltar mais rápido.');
 });
