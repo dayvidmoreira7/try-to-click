@@ -48,3 +48,11 @@ body {
   font-weight: bold;
   font-size: 3rem;
 }
+
+.integration-area {
+  width: 30%;
+
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
